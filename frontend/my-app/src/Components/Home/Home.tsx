@@ -1,8 +1,14 @@
+import Header from "../Header/header"
+import { Title } from "./homeStyle"
+
+
 const Homepage = () => {
     return (
-        <div>
-            <h1>Homepage</h1>
-        </div>
+        <>
+            <div>
+                <Title>Homepage</Title>
+            </div>
+        </>
     )
 }
 
