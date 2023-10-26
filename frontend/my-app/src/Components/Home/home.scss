@@ -1,0 +1,11 @@
+.hero-header {
+    width: 40%;
+
+    button {
+        border: 0.7px solid white;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

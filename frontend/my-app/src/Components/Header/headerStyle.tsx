@@ -1,13 +1,13 @@
 import styled from 'styled-components'
 
-export const Title = styled.h1`
-    color: ${props => props.theme.colors.primary};
+export const Title = styled.h2`
+    color: ${props => props.theme.colors.text};
     font-size: ${props => props.theme.fontSize.medium};
 `
 
 export const HeaderButton = styled.li`
-    color: ${props => props.theme.colors.secondary};
-    font-size: ${props => props.theme.fontSize.small};
+    color: ${props => props.theme.colors.text};
+    font-size: ${props => props.theme.fontSize.medium};
 `
 
 export const StyledHeader = styled.header`
